@@ -144,11 +144,14 @@ svg.curriculum {
 }
 
 .project-cover>img{
-    width: 80%;;
+    width: 20rem;
 }
 
 .project-cover{
-    border: 2px solid #1B262C;
     text-align: center;
+}
+
+.portfolio-project{
+    border: 1px solid;
 }
 
