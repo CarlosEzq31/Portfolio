@@ -1,0 +1,145 @@
+.gradient-background {
+    background: linear-gradient(300deg, #3282B8, #0F4C75, #1B262C);
+    background-size: 180% 180%;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+}
+
+.about-img {
+    border-radius: 0%;
+    height: 80%;
+    width: 80%;
+}
+
+a {
+    color: #3282B8;
+    text-decoration: none;
+}
+
+a.profile-link {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4{
+    color: #0F4C75;
+}
+
+h4 {
+    font-size: large;
+}
+
+li::marker {
+    color: #3282B8;
+}
+
+
+h1.name{
+    color: white;
+    font-weight: 900;
+}
+
+h2.introduction {
+    color: #DCDCDC;
+    font-size: x-large;
+}
+
+.lead{
+    color: #BBE1FA;
+}
+
+.header-tag {
+    font-size: 18px;
+}
+
+.photo-container {
+    text-align: center;
+}
+
+.profile-link {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.contact-info {
+    font-weight: 400;
+}
+
+svg.curriculum {
+    color: #3282B8;
+    stroke-width: 0;
+    fill: #3282B8;
+}
+
+#header-section {
+    background-color: #1B262C;
+}
+
+.download-button button {
+    border-color: #0F4C75;
+    border: 2px solid 0F4C75;
+}
+
+.download-button button:hover {
+    background-color: #0F4C75;
+    border: 1px solid white;
+}
+
+.download-button svg {
+    color: #0F4C75;
+}
+
+.download-button button:hover svg{
+    color: white;
+}
+
+.download-button .btn.btn-outline-primary:active {
+    background-color: #0F4C75 !important;
+    border-color: #0F4C75 !important;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: #BBE1FA !important;
+    font-weight: 600;
+    border-bottom: 2px solid #BBE1FA;
+    border-radius: 0;
+}
+
+.nav-link:hover {
+    color: #BBE1FA !important;
+    font-weight: 600;
+}
+
+.diploma>img{
+    width: 100%;
+    border: 1px solid;
+}
+
+.diploma.vertical{
+    text-align: center;
+    justify-content: center;
+}
+
+.diploma.vertical>img{
+    width: 60%;
+    border: 1px solid;
+}
+
+.diploma.vertical>p{
+    text-align: left;
+}
+
+.diploma>p {
+    width: 100%;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
