@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +9,7 @@
     <link href="./styles.css" rel="stylesheet">
     <title>My Resume</title>
 </head>
+
 <body>
 
     <section id="header-section">
@@ -17,7 +19,8 @@
                     <li><a href="./index.html" class="nav-link px-2 text-white header-tag">Home</a></li>
                     <li><a href="./resume.html" class="nav-link px-2 text-white header-tag">Resume</a></li>
                     <li><a href="./portfolio.html" class="nav-link px-2 text-white header-tag active">Portfolio</a></li>
-                    <li><a href="./certifications.html" class="nav-link px-2 text-white header-tag">Certifications</a></li>
+                    <li><a href="./certifications.html" class="nav-link px-2 text-white header-tag">Certifications</a>
+                    </li>
                     <li><a href="./about.html" class="nav-link px-2 text-white header-tag">About Me</a></li>
                 </ul>
             </div>
@@ -31,16 +34,15 @@
                     <h1>Projects</h1>
                 </div>
             </div>
-            <div class="row portfolio-project">
-                <div class="col-12">
-                    <a href="https://github.com/CarlosEzq31/UT-Austin-PGP-AIML.git"><h4>Projects from UT at Austin's "Post Graduate Program in Artificial Intelligence and Machine Learning: Business Applications"</h4></a>
-                </div>
-                <div class="col-lg-4 col-12 project-cover">
-                    <img src="assets/portfolio/PGP-AIML-Cover.png"alt="UT Austin PGP Projects">
-                </div>
-                <div class="col-lg-8 col-12">
-                    <p>Completed the program with perfect GPA. This <a href="https://github.com/CarlosEzq31/UT-Austin-PGP-AIML.git">repository</a> contains all the projects in PDF and HTML versions, covering the modules:
-                        <ol>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card shadow-sm portfolio-project">
+                    <h5 class="card-text">Post Graduate Program in Artificial Intelligence and Machine
+                        Learning: Business Applications</h5>
+                    <hr>
+                    <img src="assets/portfolio/PGP-AIML-Cover.png" alt="UT Austin PGP Projects" class="d-block mx-auto img-fluid" style="max-width: 400px;">
+                    <div class="card-body">
+                        <p class="small-text">Projects covering the modules:
+                        <ol class="small-text">
                             <li>Python Fundamentals</li>
                             <li>Machine Learning</li>
                             <li>Advanced Machine Learning</li>
@@ -48,10 +50,22 @@
                             <li>Computer Vision</li>
                             <li>Natural Language Processing</li>
                         </ol>
-                        This <a href="https://www.mygreatlearning.com/eportfolio/carlos-alberto-garc-a-ezquerra">portfolio</a> from the program's platform showcases hands-on projects applying AI/ML techniques to real-world business problems.</p>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group download-button">
+                                <a href="https://github.com/CarlosEzq31/UT-Austin-PGP-AIML.git">
+                                    <button type="button" class="btn btn-outline-primary">View</button>
+                                </a>
+                                <a href="https://www.mygreatlearning.com/eportfolio/carlos-alberto-garc-a-ezquerra">
+                                    <button type="button" class="btn btn-outline-primary">Platform portfolio</button>
+                                </a>
+                            </div> <small class="text-body-secondary">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
